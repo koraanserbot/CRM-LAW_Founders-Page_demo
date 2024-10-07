@@ -1,0 +1,531 @@
+/* Big screen :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .award__content textarea {
+        margin-left: -40px;
+    }
+    
+    .award__content h3 {
+        margin-left: -20px;
+    }
+    
+    .award__content img.Georgia {
+        max-width: 230px;
+    }
+    
+    .award__content p {
+        font-size: 13px;
+        padding-left: 200px;
+    }
+    
+    .award__content h3.texttwo {
+        padding-left: 220px;
+    }
+    img.user-img-2{
+    right: 0;
+}
+    .bio-slide-3 img.user-img-2{
+    max-width: 1103px;
+}
+}
+
+
+/* Normal screen :992px. */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .history-area .user-img {
+        max-width: 259px;
+    }
+    .quote-area {
+        padding: 100px 0;
+    }
+    .svc__top h1 {
+        font-size: 34px;
+    }
+    
+    .svc__blk h2 {
+        font-size: 30px;
+    }
+    i.circle-img {
+        display: none;
+    }
+    .attorneys__btn {
+        max-width: 100%;
+    }
+    
+    .attorneys-area {
+        margin: 0;
+    }
+    img.user-img-2 {
+        right: 0;
+        max-width: 400px;
+        bottom: 20px;
+    }
+
+.bio-slide-2 img.user-img-2 {
+    max-width: 700px;
+}
+
+.bio-slide-3 img.user-img-2 {
+    max-width: 862px;
+    bottom: 0;
+}
+
+.bio-slide-3 .bio__content {
+    margin-bottom: 100px;
+}
+    
+    .bio__text {
+        max-width: 533px;
+    }
+    
+    .svc__top h1 span {
+        font-size: 50px;
+    }
+    
+    .horizontal-scrolling-items__item span {
+        font-size: 27px;
+    }
+    
+    .award__content textarea {
+        margin-left: 0;
+    }
+    
+    .award__content h3 {
+        margin-left: 0;
+    }
+    
+    img.Georgia {
+        display: none;
+    }
+    
+    .award__content p {
+        padding-left: 0;
+    }
+    
+    .award__content h3.texttwo {
+        padding-left: 0;
+    }
+    
+    .footer__nav li p {
+        font-size: 14px;
+    }
+    
+    .footer__nav li a {
+        font-size: 14px;
+    }
+}
+
+ 
+/* Tablet screen :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .footer__nav {
+        margin-bottom: 40px;
+    }
+    .carousel .list .item .title,
+    .carousel .list .item .topic{font-size: 50px;}
+    .carousel .list .item .content .des{
+        max-width: 350px;
+    }
+    .history-area .user-img {
+        max-width: 259px;
+        display: none;
+    }
+
+.history__btm:before {
+    width: 100%;
+}
+    .quote-area {
+        padding: 50px 0 80px;
+    }
+    .svc__top h1 {
+        font-size: 28px;
+    }
+    
+    .svc__blk h2 {
+        font-size: 30px;
+    }
+    i.circle-img {
+        display: none;
+    }
+    .attorneys__btn {
+        max-width: 100%;
+    }
+    
+    .attorneys-area {
+        margin: 0;
+        padding: 20px 0 50px;
+    }
+    .quote__content h3 {
+        font-size: 30px;
+        margin: 30px 0;
+    }
+    
+    .quote__content p {
+        margin-left: 80px;
+    }
+    
+    .svc__top {
+        padding: 70px 0;
+    }
+    
+    .founder__left {
+        text-align: center;
+        margin-bottom: 70px;
+    }
+    
+    .founder__left i {
+        margin: auto;
+    }
+    
+    .attorneys__content {
+        margin-top: 0;
+    }
+
+.attorneys__content h3.left {
+    margin-left: 0;
+}
+
+
+
+
+
+
+
+    img.user-img-2 {
+        right: 0;
+        max-width: 291px;
+    }
+
+.bio-slide-2 img.user-img-2 {
+    max-width: 500px;
+}
+
+.bio-slide-3 img.user-img-2 {
+    max-width: 620px;
+}
+    
+    .bio__text {
+        max-width: 470px;
+    }
+
+.bio__text p {
+    font-size: 13px;
+}
+    
+    .svc__top h1 span {
+        font-size: 42px;
+    }
+    
+    .horizontal-scrolling-items__item span {
+        font-size: 27px;
+    }
+    
+    .award__content textarea {
+        margin-left: 0;
+    }
+    
+    .award__content h3 {
+        margin-left: 0;
+    }
+    
+    img.Georgia {
+        display: none;
+    }
+    
+    .award__content p {
+        padding-left: 0;
+    }
+    
+    .award__content h3.texttwo {
+        padding-left: 0;
+    }
+    .bio__content {
+        margin-right: 0;
+    }
+
+.bio-slide-3 .bio__content {
+    margin-bottom: 100px;
+}
+    
+    .founder__right textarea {
+        max-width: 580px;
+        margin-inline: auto;
+        display: block;
+    }
+    
+    .founder__right > i {
+        margin: auto;
+    }
+    .award__img {
+        margin-top: 40px;
+    }
+    
+    .award-area {
+        margin: 50px 0 0;
+    }
+    
+    .footer__nav li a {
+        line-height: 1.88;
+    }
+
+}
+
+ 
+/* small screen :320px. */
+@media (max-width: 767px) {
+    body{
+        font-size: 16px;
+    }
+    .mobile-menu{
+    top: 80px;
+}
+    .header_top {
+        display: none;
+    }
+    .header-area {
+        padding-top: 0;
+    }
+    .header-area .container-fluid{
+    padding: 0 20px;
+}
+.footer__nav {
+    margin-top: 48px;
+}
+.history-area .user-img {
+    max-width: 259px;
+    display: none;
+}
+
+.history__btm:before {
+width: 100%;
+}
+.quote-area {
+    padding: 100px 0;
+}
+.svc__top h1 {
+    font-size: 24px;
+}
+
+.svc__blk h2 {
+    font-size: 30px;
+}
+i.circle-img {
+    display: none;
+}
+.attorneys__btn {
+    max-width: 100%;
+    margin-top: 34px;
+}
+
+.attorneys-area {
+    margin: 0;
+    padding: 20px 0 50px;
+}
+.quote__content h3 {
+    font-size: 26px;
+    margin: 30px 0;
+}
+
+.quote__content p {
+    margin-left: 80px;
+}
+
+.svc__top {
+    padding: 70px 0;
+}
+
+.founder__left {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.founder__left i {
+    margin: auto;
+}
+
+.attorneys__content {
+    margin-top: 30px;
+}
+
+.attorneys__content .flex {
+    flex-direction: column;
+}
+
+.history__btm textarea {
+    font-size: 18px;
+}
+
+.history__content .flex {
+    flex-direction: column;
+}
+
+.bio__text {
+    font-size: 16px;
+}
+
+.bio-area {
+    padding-top: 80px;
+}
+
+.bio__content h2 {
+    font-size: 26px;
+    line-height: 1.4;
+}
+
+.year__content p {
+    font-size: 16px;
+}
+
+.year__content label {
+    font-size: 16px;
+}
+
+.year-area {
+    padding: 80px 0;
+}
+
+.quote__content h4 {
+    font-size: 22px;
+}
+
+.quote__content h1 {
+    font-size: 40px;
+}
+
+.sec-title h1 {
+    font-size: 30px;
+}
+
+.founder__left h2 {
+    font-size: 28px;
+}
+
+.attorneys__btn h3 {
+    font-size: 24px;
+}
+
+.attorneys__content h3.left {
+    font-size: 26px;
+    margin-left: 0;
+}
+
+.flex p {
+    width: 100%;
+}
+
+.flex p br {
+    display: none;
+}
+
+.award__content h3 {
+    font-size: 24px;
+    margin-left: 0;
+}
+
+.award__content h3.texttwo {
+    padding-left: 0;
+}
+
+.award__content h3 span {
+    font-size: 21px;
+}
+
+.award-area {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.carousel .list .item .buttons{
+    display: flex;
+    flex-direction: column;
+    max-width: 150px;
+    font-size: 14px;
+}
+.carousel .list .item .content{
+    max-width: 90%;
+    top: 65%;
+}
+
+.thumbnail {
+    top: 25%;
+    left: 29%;
+}
+
+.thumbnail .item {
+    height: 250px;
+    max-width: 200px;
+}
+
+.thumbnail .item .content .title {
+    font-size: 24px;
+}
+
+.thumbnail .item .content .description {
+    font-size: 16px;
+}
+.arrows{
+    right: 58%;
+    top: 85%;
+}
+img.user-img-2 {
+    display: none !important;!i;!;
+}
+
+.bio__content {
+    margin-right: -10px;
+    margin-left: -11px;
+}
+
+.svc__top h1 span {
+    font-size: 28px;
+}
+.horizontal-scrolling-items__item {
+    font-size: 22px;
+}
+
+.quote__content img {
+    max-width: 24px;
+}
+
+
+.award__content textarea {
+    left: 0;
+    margin-left: 0;
+}
+
+.award__content {
+    padding: 0;
+}
+
+.award__content p {
+    padding-left: 0;
+}
+
+.award__content img.Georgia {
+    display: none;
+}
+
+.quote__content.v2 span {
+    font-size: 24px;
+}
+
+.footer__nav li a {
+    line-height: 1.8;
+}
+}
+ 
+/* Large Mobile screen :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+.carousel .list .item .buttons{
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    font-size: 14px;
+}
+.carousel .list .item .content{
+    max-width: 80%;
+}
+.arrows{
+    right: 52%;
+    top: 88%;
+}
+}
