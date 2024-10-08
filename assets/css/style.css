@@ -320,7 +320,7 @@ li {
 
 .header_top p {
     margin: 0;
-    width: max-content !important;!i;!;
+    width: max-content !important;
 }
 
 .header_top .flex {
@@ -431,7 +431,7 @@ li {
   gap: 5px;
   margin-top: 20px;
 }
-.carousel .list .item .buttons button{
+.carousel .list .item .buttons button,.carousel .list .item .buttons a{
   border: none;
   background-color: #C9992C;
   font-weight: 400;
@@ -443,13 +443,13 @@ li {
   justify-content: center;
   font-size: 15px;
 }
-.carousel .list .item .buttons button:nth-child(1){
+.carousel .list .item .buttons button:nth-child(1),.carousel .list .item .buttons a:nth-child(1){
   background-color: transparent;
   border: 1px solid #fff;
   color: #eee;
 
 }
-.carousel .list .item .buttons button:nth-child(2){
+.carousel .list .item .buttons button:nth-child(2),.carousel .list .item .buttons a:nth-child(1){
   background-color: transparent;
   border: 1px solid #fff;
   color: #eee;
@@ -798,7 +798,7 @@ textarea {
 .flex p {
     width: 50%;
     color: #565D6D;
-    color: #c9992c;);
+    color: #c9992c;
 }
 
 /*============ Area End =============*/

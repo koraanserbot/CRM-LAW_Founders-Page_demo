@@ -7,8 +7,8 @@ let thumbnailBorderDom = document.querySelector('.carousel .thumbnail');
 let thumbnailItemsDom = thumbnailBorderDom.querySelectorAll('.item');
 let timeDom = document.querySelector('.carousel .time');
 
-let timeRunning = 3000;
-let timeAutoNext = 7000;
+let timeRunning = 3000; //
+let timeAutoNext = 7000; //
 let runTimeOut;
 let runNextAuto;
 

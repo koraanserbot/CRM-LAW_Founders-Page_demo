@@ -441,14 +441,16 @@ i.circle-img {
 }
 .carousel .list .item .content{
     max-width: 90%;
-    top: 65%;
+    top: 30%;
 }
 
 .thumbnail {
-    top: 25%;
-    left: 29%;
+    top: 75%;
+    left: 30%;
 }
-
+.hero-area .carousel{
+    min-height: 745px;
+}
 .thumbnail .item {
     height: 250px;
     max-width: 200px;
@@ -462,11 +464,11 @@ i.circle-img {
     font-size: 16px;
 }
 .arrows{
-    right: 58%;
-    top: 85%;
+    right: 65%;
+    top: 75%;
 }
 img.user-img-2 {
-    display: none !important;!i;!;
+    display: none !important;
 }
 
 .bio__content {
